@@ -51,7 +51,7 @@
 2. Attach to dbVPC.
 3.  Create public subnet.
 4. Create new route table associated with dbVPC.
-5. Add a new route record (in new and old RT) to dbGV.
+5. Add a new route record to dbGV (in nat-pub RT).
 6. Route table associate it with public subnet.
 
 
@@ -61,4 +61,4 @@
 1. Create new ElasticIP
 2. Find bastion instance and configure it. Don't forget create security group for instance with ssh, all tcp 10.0.0.0/8.
 3. Disable source/destination check? And assign elasticIP.
-4. Add default route on public subnet in dbVPC to nat
+4. Add default route on public subnet in dbVPC to nat (in shared RT).
