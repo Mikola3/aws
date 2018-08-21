@@ -52,7 +52,7 @@
 3.  Create public subnet.
 4. Create new route table associated with dbVPC.
 5. Add a new route record (default route) to dbGV.
-6. Subnet associate it with public subnet.
+6. Route table associate it with public subnet.
 
 
 
