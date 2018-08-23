@@ -2,7 +2,7 @@
 
 1. Create VPC with CIDR assigned.
 
-2. Create `subnet` that will be a part of  VPC created. AZ and CIDR of subnet should be also defined.
+2. Create `subnet` that will be a part of  VPC created. AZ (Availability Zones) and CIDR of subnet should be also defined.
 
 3. Create `route table` associated with VPC. Each VPC has a default route table wich is automatically associated with each subnet we are creating. Route table = Implied router!
 
